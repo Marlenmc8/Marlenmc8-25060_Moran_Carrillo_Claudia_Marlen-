@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+	<!-- 
+Elaborado por:
+Claudia Marlén Morán Carrillo
+NRC: 25060 VIERNES DE 11 A 3 
+<!-->
+<head>
+ <meta charset="utf-8">
+ <title>Tablas</title>
+	<style type="text/css">
+		
+		table{
+			background-color: #F2F2F2;
+			color:#272d2f;
+		}
+		#t01,#t01 th, #t01 td, #t02, #t02 th, #t02 td{
+			border-collapse:collapse;
+		 }
+		
+		#t01,#t01 th, #t01 td{
+			/*border: 2px solid #f2f2f2;;*/
+			padding: 5px;
+		}
+		#t01 th{
+			background-color: #FE724c;
+			color: #272d2F;
+			text-aling:left;}
+			
+			
+		#t02, #t02 th, #t02 td {
+		    color:#272d2f;
+		    border:5px solid #272d2F;
+		    padding:5px;
+			border-spacing: 8px;
+			border-spacing: 10px;
+		}
+		
+		#t02 th{
+			background-color: #FCC529;
+			color: #272d2f;
+			text-aling: left;
+		    }
+		#t03 tr:nth-child(even){
+			background-color:#f2f2f2;
+			color: #272d2F;
+        }
+		#t03 tr:nth-child(odd){ 
+		background-color:#272d2F;
+			color: #f2f2f2;}
+		#t03 th{
+			background-color: #Fe724c;
+		    color:#f2f2f2;
+			}
+		#t04 td:nth-child(even){
+			background-color: #272d2f;
+			color:#F2F2F2;
+		}
+		#t04 td:nth-child(odd)
+		{background-color:#f2f2f2;
+		color:#FE724c;}	
+		#t04 th{
+			background-color: #Fe724c;
+			color:antiquewhite;
+		}
+		#t05{
+			width: 640px;
+		}
+		#t05 th{
+			height:50px;
+		}
+		
+		#t05 td{ 
+		height: 30px;
+		padding-left: 10px;
+		vertical-aligh:bottom;}
+		
+		#t05, #t05 th, #t05 td{ 
+		boder-collapse:collapse;
+		}
+		#t05 th:hover{
+			background-color: #FFC52a;
+			color: #fe724c;
+		}
+		#t05 th{
+			background-color:#272d2F;
+			color: #f2f2f2;
+		}
+		#t06 th, #t06 td{
+		    text-alingn:center;
+			border: 3px solid #FE724c;
+			height; 35px;
+			border-collapse: collapse;}
+		#t06,#t06 th, #06 td{
+			border-collapse: collapse;
+		}
+		#t06 td{ width: 100px;}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		hi{
+			color:brown;
+		}
+		header,nav,main,footer{
+			width:960px;
+			/*height:100px;*/
+			background-color:#272d2F;
+			padding:50px;
+			margin:0px auto;
+		}
+		header{
+			color:#f2f2f2;
+			text-align: center}
+		nav{
+			background-color: #FE724c;
+			heigh:50px;
+			padding: 10px 50px;
+		}
+		nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+	color:white;
+}
+		main{
+			background-color:#272d2F;
+			height: auto;
+		}
+		footer{
+			background-color: #FFC52a;
+			height: 10px;
+			color: #272d2F;
+			text-align: center;
+		}
+		section{
+			width: 760px;
+			height:auto;
+			background-color:#FFC52a;
+			margin:20px auto;
+			padding: 20px 20px;
+		}
+		
+		dt{
+			font-weight: bold;
+			margin:10px;
+		}
+		
+		h1{
+			color:#F2F2F2;
+		}
+		h2{
+			color:#272D2F;
+	
+	</style>
+	</head>
+
+<body>
+	<header>
+		<h1>TABLAS EN HTML</h1>
+	</header>
+	<nav> <ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imágenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+            <li><a href="formulario.html">Formulario</a>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="animacion.html">Animacion</a></li>
+            <li><a href="flexbox1.html">Flexbox</a></li>
+			</ul>
+	</nav>
+<main>
+  <section>
+		<dt><h2>Tabla en simple</h2></dt>
+		<table border="1">
+		   <thead>
+			<tr>
+			  <th>NOMBRE</th>
+			  <th>DIRECCIÓN</th>
+			  <th>TELÉFONO</th>
+			</tr>
+		   </thead>
+			<tbody>
+				<tr>
+					<td>Luz barrerar</td>
+					<td>calle flores #23</td>
+					<td>2291759300</td>
+				</tr>
+				<tr>
+					<td>Aylin Rodriguez</td>
+					<td>avenida margaritas #304</td>
+					<td>23819008991</td>
+				</tr>
+				<tr>
+					<td>Juan Perez</td>
+					<td>calle zapata #2089</td>
+					<td>22223090897</td>
+				</tr>
+				<tr>
+					<td>Maria Domingue</td>
+					<td>calle benito juares #209</td>
+					<td>22228574893</td>
+				</tr>
+				<tr>
+					<td>Claudia Jimenez</td>
+					<td>privada de la 30 #409</td>
+					<td>2223490895</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+  
+	<section>
+            <dt><h2>Tabla con bordes colapsados</h2></dt>
+            <table id="t01" border="1">
+        <thead>
+		  <tr>
+		      <th>NOMBRE</th>
+              <th>DIRECCIÓN</th>
+              <th>TELÉFONO</th>
+			</tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td>Luz barrerar</td>
+                <td>calle flores #23</td>
+                <td>2291759300</td>
+              </tr>
+              <tr>
+                <td>Aylin Rodriguez</td>
+                <td>avenida margaritas #304</td>
+                <td>23819008991</td>
+              </tr>
+              <tr>
+                <td>Juan Perez</td>
+                <td>calle zapata #2089</td>
+                <td>22223090897</td>
+              </tr>
+              <tr>
+                <td>Maria Domingue</td>
+                <td>calle benito juares #209</td>
+                <td>22228574893</td>
+              </tr>
+              <tr>
+                <td>Claudia Jimenez</td>
+                <td>privada de la 30 #409</td>
+                <td>2223490895</td>
+              </tr>
+            </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+	
+  <section>
+    <dt><h2>Tabla que abarca mas de una columnas</h2></dt>
+	  <table id="t02"  border="1">
+	    <thead>
+			<tr>
+	  <th>NOMBRE</th>
+	  <th>DIRECCIÓN</th>
+	  <th colspan="2">TELÉFONOS</th>
+			</tr>
+    
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>Luz barrerar</td>
+	      <td>calle flores #23</td>
+	      <td>2291759300</td>
+		  <td>2224565447</td>
+        </tr>
+	    <tr>
+	      <td>Aylin Rodriguez</td>
+	      <td>avenida margaritas #304</td>
+	      <td>23819008991</td>
+		  <td>2221343567</td>
+        </tr>
+	    <tr>
+	      <td>Juan Perez</td>
+	      <td>calle zapata #2089</td>
+	      <td>22223090897</td>
+		  <td>2224456785</td>
+        </tr>
+	    <tr>
+	      <td>Maria Domingue</td>
+	      <td>calle benito juares #209</td>
+	      <td>22228574893</td>
+			<td>2224564343</td>
+        </tr>
+	    <tr>
+	      <td>Claudia Jimenez</td>
+	      <td>privada de la 30 #409</td>
+	      <td>2223490895</td>
+		  <td>2227899687</td>
+        </tr>
+      </tbody>
+	  <tfoot>
+      </tfoot>
+	  </table>
+  </section>
+  
+	<section>
+	  <dt><h2>Tabla con bandas/rayas horizontales de diferente color</h2></dt>
+	  <table id="t03"  border="1">
+	    <thead>
+	      <tr>
+	        <th>NOMBRE</th>
+	        <th>DIRECCIÓN</th>
+	        <th>TELÉFONO</th>
+          </tr>
+        </thead>
+	    <tbody>
+	      <tr>
+	        <td>Luz barrerar</td>
+	        <td>calle flores #23</td>
+	        <td>2291759300</td>
+	        
+          </tr>
+	      <tr>
+	        <td>Aylin Rodriguez</td>
+	        <td>avenida margaritas #304</td>
+	        <td>23819008991</td>
+	      </tr>
+	      <tr>
+	        <td>Juan Perez</td>
+	        <td>calle zapata #2089</td>
+	        <td>22223090897</td>
+	        
+          </tr>
+	      <tr>
+	        <td>Maria Domingue</td>
+	        <td>calle benito juares #209</td>
+	        <td>22228574893</td>
+	        
+          </tr>
+	      <tr>
+	        <td>Claudia Jimenez</td>
+	        <td>privada de la 30 #409</td>
+	        <td>2223490895</td>
+	      </tr>
+        </tbody>
+	    <tfoot>
+        </tfoot>
+      </table>
+  </section>
+	
+	<section>
+	  <dt><h2>Tabla con bandas/rayas verticales de diferentes colores</h2></dt>
+	  <table id="t04"  border="1">
+	    <thead>
+	      <tr>
+	        <th>NOMBRE</th>
+	        <th>DIRECCIÓN</th>
+	        <th>TELÉFONO</th>
+		    <th>CIUDAD</th>
+          </tr>
+        </thead>
+	    <tbody>
+	      <tr>
+	        <td>Luz barrerar</td>
+	        <td>calle flores #23</td>
+	        <td>2291759300</td>
+	        <td>México</td>
+			
+          </tr>
+	      <tr>
+	        <td>Aylin Rodriguez</td>
+	        <td>avenida margaritas #304</td>
+	        <td>23819008991</td>
+	        <td>Puebla</td>
+          </tr>
+	      <tr>
+	        <td>Juan Perez</td>
+	        <td>calle zapata #2089</td>
+	        <td>22223090897</td>
+	        <td>León</td>
+          </tr>
+	      <tr>
+	        <td>Maria Domingue</td>
+	        <td>calle benito juares #209</td>
+	        <td>22228574893</td>
+	        <td>Juarez</td>
+          </tr>
+	      <tr>
+	        <td>Claudia Jimenez</td>
+	        <td>privada de la 30 #409</td>
+	        <td>2223490895</td>
+	        <td>Cancún</td>
+          </tr>
+        </tbody>
+	    <tfoot>
+        </tfoot>
+      </table>
+  </section>
+	
+	<section>
+	 <dt><h2>Tabla con resaltado flotante</h2></dt>
+	  <table id="t05"  border="1">
+	    <thead>
+	      <tr>
+	        <th>NOMBRE</th>
+	        <th>DIRECCIÓN</th>
+	        <th>TELÉFONO</th>
+		    <th>CIUDAD</th>
+          </tr>
+        </thead>
+	    <tbody>
+	      <tr>
+	        <td>Luz barrerar</td>
+	        <td>calle flores #23</td>
+	        <td>2291759300</td>
+	        <td>JALISCO</td>
+          </tr>
+	      <tr>
+	        <td>Aylin Rodriguez</td>
+	        <td>avenida margaritas #304</td>
+	        <td>23819008991</td>
+	        <td>MÉXICO</td>
+          </tr>
+	      <tr>
+	        <td>Juan Perez</td>
+	        <td>calle zapata #2089</td>
+	        <td>22223090897</td>
+	        <td>PUEBLA</td>
+          </tr>
+	      <tr>
+	        <td>Maria Domingue</td>
+	        <td>calle benito juares #209</td>
+	        <td>22228574893</td>
+	        <td>CANCÚN</td>
+          </tr>
+	      <tr>
+	        <td>Claudia Jimenez</td>
+	        <td>privada de la 30 #409</td>
+	        <td>2223490895</td>
+	        <td>JALISCO</td>
+          </tr>
+        </tbody>
+	    <tfoot>
+        </tfoot>
+      </table>
+  </section>
+	
+	<section style="overflow-x: auto">
+	<dt><h2>Tabla responsiva</h2></dt>
+		<table id="t06">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+					<th>puntos</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<th>Juan </th>
+					<th>222</th>
+					<th>567</th>
+					<th>451</th>
+					<th>450</th>
+					<th>390</th>
+					<th>423</th>
+					<th>843</th>
+					<th>109</th>
+					<th>134</th>
+					<th>129</th>
+					<th>456</th>
+					<th>439</th>
+					<th>206</th>
+					<th>123</th>
+					<th>150</th>
+					<th>290</th>
+					<th>450</th>
+					<th>321</th>
+				</tr>
+				<tr>
+					<th>Lorena</th>
+					<th>708</th>
+					<th>123</th>
+					<th>191</th>
+					<th>893</th>
+					<th>532</th>
+					<th>423</th>
+					<th>843</th>
+					<th>409</th>
+					<th>444</th>
+					<th>429</th>
+					<th>456</th>
+					<th>439</th>
+					<th>333</th>
+					<th>123</th>
+					<th>150</th>
+					<th>212</th>
+					<th>450</th>
+					<th>321</th>
+				</tr>
+				   <tr>
+					<th>Jaime</th>
+					<th>645</th>
+					<th>908</th>
+					<th>451</th>
+					<th>431</th>
+					<th>390</th>
+					<th>423</th>
+					<th>809</th>
+					<th>109</th>
+					<th>134</th>
+					<th>129</th>
+					<th>456</th>
+					<th>439</th>
+					<th>206</th>
+					<th>123</th>
+					<th>150</th>
+					<th>290</th>
+					<th>450</th>
+					<th>321</th>
+				</tr>
+			</tbody>
+		</table>
+</section>
+    </main>
+    <footer>
+	<h5> Elaborado por Claudia Marlen Morán Carrillo</h5>
+	</footer>
+</body>
+</html>

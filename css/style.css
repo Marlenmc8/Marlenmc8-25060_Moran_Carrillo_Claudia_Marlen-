@@ -1,0 +1,274 @@
+@charset "utf-8";
+header {
+    background-color: #D456F7;
+    color: #F0EBF0;
+    height: 100px;
+}
+nav {
+    height: 60px;
+    background-color: #333333;
+    color: #FEDDDE;
+}
+
+
+header h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+
+header, nav, section, footer , main{
+    margin: 0 auto;
+    width: 80%;
+  
+}
+main {
+    background-color: #FFC3C2;
+    width: 80%;
+	height:auto;
+	padding:20px;
+}
+footer {
+    background-color: #333333;
+    height: 130px;
+    color: #FEDDDE;
+    text-align: center;
+}
+main section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #D456F7;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    border: 5px outset #FEDDDE;
+    overflow: auto;
+}
+.picture_3 {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+main section img {
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    display: block;
+}
+
+
+.parrafo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #12113F;
+}
+
+
+#picture-2 {
+    float: left;
+    padding-right: 30px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 0px;
+}
+
+main section h2 {
+    padding-bottom: 30px;
+    color: #FEDDDE;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul {
+    height: 40px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+}
+footer h5 {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 50%;
+   
+}
+#link-2 {
+}
+#link-4 {
+}
+#link-5 {
+}
+a:link{
+	color:#E48182;
+	text-decoration:none;
+	font-weight:bolder;
+}
+	
+a:visited{
+	color:#26F063;
+	text-decoration:none;
+	font-weight:bolder;
+}
+a:active{
+	color:#E5ED6E;
+	text-decoration:none;
+	font-weight:bolder;
+}
+	a:hover{
+	color:#4FE6FF;
+	text-decoration:none;
+	font-weight:bolder;
+}
+.picture-1 {
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #FFC2A2;
+}
+.picture_3 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.parrafo {
+    color: #0C113B;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.picture__2 {
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture2 {
+    margin-bottom: 0px;
+    border-radius: 40px 10px 200px 23px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_redondeado3 {
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.imagfiltro_1 {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: px;
+    margin-bottom: 10px;
+}
+.img_blur {
+    filter: blur(5px);
+}
+.img_brillo {
+    filter: brightness(100%);
+}
+.img_contraste {
+    filter: contrast(100%);
+}
+.img_grises {
+    filter: grayscale(100%);
+
+}
+.img_negativo {
+    filter: invert(100%);
+}
+.img_opacidad {
+    filter: opacity(50%);
+}
+.img_saturado {
+    filter: saturate(100%);
+}
+.img_sepia {
+    filter: sepia(100%);
+}
+.video_size {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: auto;
+}
+.gif_1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.animate__animated {
+}
+.animate__fadeinup {
+}
+
+input[type=text], input[type=number]{
+background-color:#474768;
+color:white;
+width:35%;
+margin:10px;
+padding:10px;
+font-size:18px;
+box-sizing:border-box;
+border-radius:30px;
+}
+
+input[type=submit]{
+background-color:#C3C9C6;
+width:150px;
+height:40px;
+margin:10px;
+padding:10px;
+font-size:18px;
+font-weight:bold;
+box-sizing:border-box;
+border-radius:10px
+}
+
+select, select option{
+background-color:#474768;
+color:white;
+width:50%;
+}
+
+.parrafo_formulario, label{
+;font-size:18px;
+color:aliceblue;
+}
+textarea{background-color:#FEDDDE;
+	font-size:18px;
+font-weight:bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+fieldset{color:white;
+margin:10px;
+padding:10px}

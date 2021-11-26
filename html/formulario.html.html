@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formularios</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+		<header>
+		<h1>Formularios en html</h1>
+		
+	</header>
+<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imágenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+            <li><a href="formulario.html">Formulario</a>
+			<li><a href="videos.html">Video</a></li>
+			<li><a href="animacion.html">Animacion</a></li>
+            <li><a href="flexbox1.html">Flexbox</a></li>
+        </ul>
+	</nav>
+	<main>
+<section>
+           <h2>Formulario simple</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aut reprehenderit, ratione vel perspiciatis quasi, veritatis laboriosam itaque maxime earum.
+      
+   </p>
+	
+      <form action="action_page.html" methor="get">
+  <label>Nombre:</label>
+     <input type="text" id="nombre" name="nombre">
+      <label>Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos">
+      <input type="submit" value="Enviar">
+  </form>
+</section>
+<section>
+  <h2>Formulario con raadiobuntton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto itaque odit recusandae minus, commodi dolorum porro omnis! Fugiat blanditiis, repudiandae.</p>
+	<form id="datos1" name="datos1" action="action_page.html" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" name="nombre" id="nombre">
+  <label for="apellidos">Apellidos:</label>
+  <input type="text" name="apellidos" id="apellidos"><br>
+  <label>Género&nbsp;</label>
+  <input name="genero" type="radio" id="radio" title="genero" value="femenino">
+  <label for="genero">Femenino&nbsp;</label>
+  <input name="genero" type="radio" id="radio2" title="genero" value="masculino">
+  <label for="genero">Masculino</label>
+  <input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+</form>
+  </section>
+<section>
+  <h2>Formulario usando el checkbox y otros</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto itaque odit recusandae minus, commodi dolorum porro omnis! Fugiat blanditiis, repudiandae.</p>
+  <form id="datos2" name="datos1" action="action_page.html" method="post">
+    <label for="nombre2">Nombre:</label>
+    <input type="text" name="nombre2" id="nombre2">
+    <label for="apellidos2">Apellidos</label>
+    <input type="text" name="apellidos2" id="apellidos2"><br>
+    <label>Género&nbsp;</label>
+    <input name="genero" type="radio" id="radio3" title="genero" value="femenino">
+    <label for="genero2">Femenino&nbsp;</label>
+    <input name="genero" type="radio" id="radio4" title="genero" value="masculino">
+    <label for="genero2">Masculino</label>
+    <p><label>Elige de la lista de genero o musica que mas te guste</label><br>
+		
+	   <label>
+	     <input type="checkbox" name="Música favorita" value="pop" id="Muacutesicafavorita_0">
+	     Pop</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Música favorita" value="rock" id="Muacutesicafavorita_1">
+	     Rock</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Música favorita" value="jazz" id="Muacutesicafavorita_2">
+	     Jazz</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Música favorita" value="blues" id="Muacutesicafavorita_3">
+	     Blues</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Música favorita" value="alternativa" id="Muacutesicafavorita_3">
+	     Alternativa</label>
+	  </p>
+	  <label for="select">Select:</label>
+         <select name="select" id="select">
+         <option value="ar">Argentina</option>
+         <option value="ch">Chile</option>
+         <option value="fr">Francia</option>
+         <option value="lt">Lituania</option>
+         <option value="mx">Mexico</option>
+</select>
+    <input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+  </form>
+</section>
+		<section>
+<h2>Formulario organizado dentro de una tabla</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta a veritatis fugit cum corrupti quasi.
+</p>
+	  <form action="action_page.html.html" methor="get">
+	  <table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre:</label></td>
+      <td><input type="text" id="nombre" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="apellidos">Apellidos:</label></td>
+<td><input type="text" id="apellidos" name="apellidos"></td>
+    </tr>
+    <tr>
+    <td><label for="edad">Edad:</label></td>
+    <td><input type="number" id="edad" name="edad" min="1" max="99"></td>>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Enviar"></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</section>
+			<section>
+<h2>Ejercicio de clases</h2>
+<fieldset>
+ <legend>Datos personales:</legend>
+
+	<form action="action_page.html.html" methor="get"
+  <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="apellido">Apellidos:</label><br>
+    <input type="text" id="apellido" name="apellido"><br><br>
+    <tr>
+    <td><label for="edad">Edad:</label></td>
+    <td><input type="number" id="edad" name="edad" min="1" max="99"></td>
+    </tr>
+    <tr>
+</form>
+<p>Selecciona tu ocupacion</p>
+  <label for="ocupacion">Ocupacion:</label>
+  <select id="ocupacion" name="ocupacion">
+    <option value="estudiante">Estudiante</option>
+    <option value="profesor">Profesor</option>
+    <option value="director">Director</option>
+    <option value="empresario">Empresario</option>
+  </select><br><br>
+<p>Elige la ciudad de la que nos visitar</p>
+  <label for="ciudad">Ciudad:</label>
+  <select id="ciudad" name="cars" size="1" multiple>
+    <option value="puebla">Puebla</option>
+    <option value="gdt">Guanajuato</option>
+    <option value="cdmx">CDMX</option>
+    <option value="monterrey">Monterrey</option>
+    <option value="nv">Nuevo Leon</option>
+    <option value="cuernavaca">Cuernavaca</option>
+  </select><br><br>
+<p>Elige del bien o mal como te sientes hoy</p>
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+BIEN
+  <input type="range" id="a" name="a" value="">
+ MAL <br><br>
+ <form action="/action_page.php">
+  <textarea name="message" rows="4" cols="30">Despues de completar el formulario, da click en "Registrar" y despues "enviar"</textarea>
+  <br><br>
+ <button type="button" onclick="alert('Listo!')">Registrar</button>
+</form>
+	</fieldset>
+	<form action="action_page.html.html" methor="get">
+<input type="submit" value="Enviar">
+	
+</section>
+		</main>	
+<footer>
+  <h5>Elaborado por Claudia Marlen Moran Carrillo</h5>
+</footer>
+</body>
+</html>
